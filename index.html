@@ -1,0 +1,36 @@
+<link href='https://aryabhata.aeonic.me/styles/sigma.css' rel='stylesheet' type='text/css' />
+<style>td {max-width: 500px; overflow-x: auto;} body, html {width:100%;width:100vw;padding:8px;}</style>
+<div class='table-wrapper' style='width: 100%;'>
+  <table class='non'>
+    <tbody>
+      <tr id='xvals'>
+        <th>&nbsp;&nbsp;<strong>x</strong>&nbsp;&nbsp;</th>
+        <td>-1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr id='yvals'>
+        <th>&nbsp;&nbsp;<strong><sup>x</sup><span id='baseval'>2</span>&nbsp;&nbsp;</th>
+        <td id='y-1'>0</td>
+        <td id='y0'>1</td>
+        <td id='y1'>2</td>
+        <td id='y2'>4</td>
+        <td id='y3'>16</td>
+        <td id='y4'>65536</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<center><hr style='width: calc(100% - 16px);'/></center>
+<label for='basebox'>Base <i>b</i> =
+  <input type='number' step='1' id='basebox' value='2' />
+</label>
+<br/>
+<label for='inpbox'>Tetronent <i>x</i> =
+  <input type='number' step='0.5' id='expbox' value='3' />
+</label>
+<br/><br/>
+Answer: <sup><span id='expval'>3</span></sup><span id='baseval'>2</span> = <span id='answer'>16</span>
